@@ -1,0 +1,303 @@
+/* Css Reset */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Raleway:wght@300&family=Tinos&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    /* background-color: #e7a600a1; */
+     margin: -22px;
+    width: 1598px;
+    
+}
+
+.main {
+    width: 1376px;
+    /* border: 2px solid; */
+    margin: 21px auto;
+    display: block;
+    padding: 10px 5px;
+}
+
+.main ul li {
+    display: inline-block;
+    margin: 20px 70px;
+    font-weight: bold;
+    
+    
+}
+
+.main ul li a {
+    display: block;
+    text-decoration: none;
+    color: #0c0c0c;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    
+}
+
+.main ul li a:hover{
+    color: rgb(253, 253, 253);
+    text-decoration: underline;
+}
+.btn {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 6px 22px;
+    margin: -3px;
+}
+
+.btn:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+/* home section */
+#home {
+    font-family: 'Tinos', serif;
+    font-size: medium;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 375px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    background: url('restaaa.jpg');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.h1-home {
+    font-size: 4.8rem;
+    padding: 41px;
+    letter-spacing: 6px;
+
+
+
+}
+
+#home p {
+    /* color: white; */
+    margin: 0px 40px;
+    /* padding: 10px; */
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn1 {
+    font-family: "Josefin Sans", sans-serif;
+    padding: 17px 67px;
+    font-size: 1.8em;
+    margin: 35px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 9px;
+
+}
+
+.btn1:hover {
+    background-color: rgb(75, 95, 133);
+    color: white;
+    /* cursor: pointer; */
+}
+
+hr{
+    height: 1px;
+    background-color: black;
+    border: none;
+    margin-top: 234px;
+}
+/* Our Place */
+
+#Ourplace .areas {
+    border: 2px solid black;
+    height: 375px;
+    margin: 31px 21px;
+    width: 478px;
+    /* display: block; */
+    /* margin: 0px auto; */
+    transition: all 1s ease-in 0s;
+}
+#Ourplace .areas:hover{
+    box-shadow: 7px 5px 20px  rgb(51, 0, 0);
+}
+
+
+#Ourplace .areas img {
+    /* height: 100px; */
+
+    width: 408px;
+    display: block;
+    margin: auto;
+    
+}
+.areas {
+    display: inline-block;
+    
+}
+
+#Ourplace .h2-center {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 51px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Ourplace .h3-center {
+    font-family: 'Josefin sans', serif;
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Ourplace .areas .box1 {
+    width: 408px;
+    display: block;
+    margin: auto;
+    
+}
+#Ourplace .areas .box2 {
+    width: 361px;
+    display: block;
+    margin: auto;
+    
+}
+
+#Ourplace .areas .box3{
+    width: 172px;
+}
+
+#Ourplace .areas .para{
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr1{
+    height: 1px;
+    background-color: black;
+    border: none;
+    margin-top: 0px;
+}
+
+/* Reservation service */
+#Reservation .h4-center{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    padding-top: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+form input{
+    font-family: 'Josefin Sans', sans-serif;
+    width: 300px;
+    height: 24px;
+
+}
+
+/* Client Section */
+
+#clients{
+    padding: 0px 274px;
+}
+#Client-section {
+   background-color: #757474;
+}
+#Client-section .h5-center{
+    display: flex; 
+    justify-content: center;
+color: white;
+}
+
+#clients .items{
+    padding: 23px;
+}
+#Client-section .items{
+    display: inline;
+    justify-content: center;
+
+}
+
+/* Footer  */
+.Footer{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: gainsboro;
+    height: 60vh;
+}
+
+.Footer .footer-head{
+    display: flex;
+    padding: 22px 0px;
+    justify-content: center;
+}
+.Footer #para{
+    padding: 20px 450px;
+    letter-spacing: 2px;
+}
+.Footer h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    margin-top: 36px;
+}
+
+
+.form1 input{
+    margin: 30px 0px;
+    width: 370px;
+    margin: 0px;
+}
+.form1 input[type=submit]{
+    display: inline-block;
+    width: 114px;
+    margin-top: -25px;
+    margin-left: 500px;
+    background-color: black;
+    color: white;
+    border-radius: 46px;
+}
+.form1 input[type=submit]:hover{
+    background-color: rgb(107, 74, 87);
+    /* transition-delay: 1s; */
+}
+.Footer .footer1{
+    display: flex;
+    justify-content: center;
+    padding: 22px;
+}
+
+
+
+
+
+
+/* END */
